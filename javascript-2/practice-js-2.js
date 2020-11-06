@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "A software that communicates transports data between a personal computer and the internet (specifically GitHub)."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "Basically a cloud storage platform for code. (Also useful for showing what you are capable of *from what I hear*)"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: "This starts a connection between a personal computer and the software git. This is absolutely necessary to use the git program. Git will be initialized specifically on the directory you are on when you have run this command. A hidden git file will be added to the directory",
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: "Before running this command you will absolutely need to have created a repository in your GitHub. Copy the URL, and then you can run this command. What it does is copy the code files from GitHub and puts them on your computer! Super nifty! Now you can work away on your IDE!",
+    code: "git clone <url>"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: "This gives you the current status of your code. Has it been staged? Has it been pushed? Find out with this command today!",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: "This adds your files to the staging area. Before you have added them to the staging area, make sure that you have made all of the changes that you want. Then get ready to commit! The command that I show will add all of the files in the directory to be staged. I believe this is how I will always do it. But if you really want, you can do one file at a time I guess with just add",
+    code: "git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: "You are ready to save your changes locally on your personal computer! Commit with a short message of what you did! *you are not done yet. Remember that you need to push these changes up to GitHub!",
+    code: "git commit -m'yourMessageHere'"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: "This is something I haven't really done or practiced. BUT I think what id does is is similar to the git clone command. Except in this case I can grab files locally and create a shorthand name for it? I don't know why this will be useful yet, but I am sure it will be later. Found the command on git-scm.com",
+    code: "git remote add <shortname> <url>"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: "The final step to get you new code from your computer pushed online to GitHub repository.",
+    code: "git push"
+}
